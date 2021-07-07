@@ -1,0 +1,31 @@
+[global_config]
+  inactive_color_offset = 0.6447368421052632
+  enabled_plugins = ActivityWatch, LaunchpadBugURLHandler, LaunchpadCodeURLHandler, APTURLHandler
+  suppress_multiple_term_dialog = True
+[keybindings]
+[profiles]
+  [[default]]
+    background_color = "#061d16"
+    background_darkness = 0.64
+    background_type = transparent
+    cursor_color = "#aaaaaa"
+    font = Sans Italic 10
+    foreground_color = "#a3d0c0"
+    show_titlebar = False
+    scrollbar_position = hidden
+    palette = "#1b342c:#cc241d:#98971a:#d79921:#458588:#b16286:#689d6a:#a89984:#3fbf67:#fb4934:#b8bb26:#fabd2f:#83a598:#d3869b:#8ec07c:#ebdbb2"
+  [[test]]
+    background_color = "#300a24"
+    cursor_color = "#aaaaaa"
+    foreground_color = "#ffffff"
+    show_titlebar = False
+    palette = "#282828:#cc241d:#98971a:#d79921:#458588:#b16286:#689d6a:#a89984:#928374:#fb4934:#b8bb26:#fabd2f:#83a598:#d3869b:#8ec07c:#ebdbb2"
+[layouts]
+  [[default]]
+    [[[window0]]]
+      type = Window
+      parent = ""
+    [[[child1]]]
+      type = Terminal
+      parent = window0
+[plugins]

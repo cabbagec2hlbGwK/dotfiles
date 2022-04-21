@@ -16,6 +16,6 @@ cp ./config/* ~/.config/ -r
 echo "alias vim='nvim'" >> ~/.bashrc
 echo "alias vi='nvim'" >> ~/.bashrc
 
-cp ./wallpaper ~/Pictures/
+cp ./wallpaper ~/Pictures/ -r
 echo " done installing"
 echo " make sure to run PlugInstall in vim "
